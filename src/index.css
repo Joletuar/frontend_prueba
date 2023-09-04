@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  background-color: #181a1e;
+  height: 100vh;
+  overflow-y: hidden;
+  text-align: center;
+  width: 250px;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav-active {
+  color: aquamarine;
+  transition: all 0.3s ease-out;
+}
+
+.titles {
+  font-size: 50px;
+  font-weight: bold;
+}
